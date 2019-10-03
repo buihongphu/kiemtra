@@ -29,13 +29,15 @@ namespace kiemtraketthucmon
         {
             meo meo = new meo();
             meo.tiengkeu = "Meo meo";
+            meo.longdongvat = "Đỏ";
             meo.Talk();
         }
 
         private void Btncho_Click(object sender, RoutedEventArgs e)
         {
             cho cho = new cho();
-            cho.tiengkeu = "Gau gau";
+            cho.tiengkeu = "Gâu gâu";
+            cho.longdongvat = "Đỏ";
             cho.Talk();
         }
     }
