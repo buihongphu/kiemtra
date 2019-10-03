@@ -29,7 +29,7 @@ namespace kiemtraketthucmon
         {
             meo meo = new meo();
             meo.tiengkeu = "Meo meo";
-            meo.longdongvat = "Đỏ";
+            meo.maulong = "Vàng";
             meo.Talk();
         }
 
@@ -37,7 +37,7 @@ namespace kiemtraketthucmon
         {
             cho cho = new cho();
             cho.tiengkeu = "Gâu gâu";
-            cho.longdongvat = "Đỏ";
+            cho.maulong = "Đen";
             cho.Talk();
         }
     }

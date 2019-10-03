@@ -20,7 +20,7 @@ namespace kiemtraketthucmon
         {
         }
         private string Maulong;
-        public string longdongvat
+        public string maulong
         {
             get { return Maulong; }
             set { Maulong = value; }
@@ -28,10 +28,10 @@ namespace kiemtraketthucmon
     
         public virtual void Talk()
         {
-            if (tiengkeu.Equals("Gâu gâu") && (longdongvat.Equals("Đỏ")))
-                MessageBox.Show(this.tiengkeu + " Tôi là chó lông màu:" + this.longdongvat);
-            else if (tiengkeu.Equals("Meo meo") && (longdongvat.Equals("Đỏ")))
-                MessageBox.Show(this.tiengkeu + " Tôi là mèo lông màu:" + this.longdongvat);
+            if (tiengkeu.Equals("Gâu gâu") && (maulong.Equals("Đen")))
+                MessageBox.Show(this.tiengkeu + " Tôi là chó màu long:" + this.maulong);
+            else if (tiengkeu.Equals("Meo meo") && (maulong.Equals("Vàng")))
+                MessageBox.Show(this.tiengkeu + " Tôi là mèo màu long:" + this.maulong);
         }
     }
 }
