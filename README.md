@@ -9,3 +9,5 @@
    - Lớp Cho: Hiển thị chuỗi: "Gâu gâu Tôi là chó lông màu " + MauLong
    - Lớp Meo: Hiển thị chuỗi: "Meo meo Tôi là mèo lông màu " + MauLong
 7. Cập nhật lên Github, cập nhật Readme
+8. Thêm 2 button đến from ứng dụng
+9. Cập nhật Github Readme.
